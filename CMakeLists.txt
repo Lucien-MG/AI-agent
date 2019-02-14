@@ -7,9 +7,10 @@ project(AI-agent)
 # Folder Declaration:
 
 
+
 # Header include:
 
-include_directories(include/)
+include_directories(inc/)
 
 #Folder Creation:
 
@@ -21,8 +22,9 @@ add_executable(
 
     matrix_test
 
-    src/matrix/matrix_unit_test.cpp
+    src/test/matrix_unit_test.cpp
+
+    src/test/libtest.cpp
 
     src/matrix/matrix.cpp
-    include/matrix/matrix.hpp
 )

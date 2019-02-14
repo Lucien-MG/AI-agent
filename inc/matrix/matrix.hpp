@@ -56,7 +56,6 @@ namespace mtrx {
             Matrix& operator+=(const Matrix& a);
             Matrix& operator-=(const Matrix& a);
             Matrix& operator*=(const Matrix& a);
-
             Matrix& operator=(const Matrix& a);
 
         private:
