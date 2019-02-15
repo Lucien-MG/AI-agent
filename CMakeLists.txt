@@ -18,6 +18,8 @@ file(MAKE_DIRECTORY build)
 
 # Executable's declaration:
 
+
+# Matrix test program:
 add_executable(
 
     matrix_test
@@ -28,3 +30,16 @@ add_executable(
 
     src/matrix/matrix.cpp
 )
+
+# Matrix benchmark program:
+add_executable(
+    
+    matrix_bench
+
+    src/benchmark/matrix_bench.cpp #Main
+
+    src/benchmark/libbench.cpp
+
+    src/matrix/matrix.cpp
+)
+

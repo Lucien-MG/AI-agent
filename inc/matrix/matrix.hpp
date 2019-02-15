@@ -46,7 +46,6 @@ namespace mtrx {
 
             // Procedur section:
             void print_matrix();
-
             bool size_is_equal_to(const Matrix& a);
 
             // Method section:
